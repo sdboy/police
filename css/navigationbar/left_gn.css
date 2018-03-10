@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: transparent;
+}
+ul,li{
+		margin:0px;
+		padding:0px;
+		list-style:none;
+}
+.left_gn{
+	background: none;
+	position: relative;
+}
+/*
+.left_gn_top{
+	width: 68px;
+	height: 35px;
+	background: url(../img/leftgnbg1.png);
+}
+*/
+.left_gn_center{
+	width: 68px;
+	background: #12253a;
+	height: 448px;
+}
+/*
+.left_gn_btm{
+	width: 68px;
+	height: 35px;
+	background: url(../img/leftgnbg2.png);
+}
+*/
+
+
+.right_gn{
+	width: 34px;
+	height: 448px;
+	background: #172633;
+	border-radius: 2px;
+	filter:Alpha(opacity=85);
+ 	position:static; 
+  	*zoom:1; 
+	background-color:rgba(23,38,51,0.85);
+}
+.sxck{
+	width: 34px;
+	height: 40px;
+	background: url(../img/sxck1.png);
+	cursor: pointer;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	position: relative;
+}
+.sxck:hover{
+	background: url(../img/sxck2.png);
+}
+
+.left_gn_center .menu{
+	width: 64px;
+	height: 72px;
+	float: left;
+	cursor: pointer;
+	margin: 2px 2px 0px 2px;
+	background: url(../img/lefttool_bg1.png)
+}
+.left_gn_center .menu:hover{
+	background: url(../img/lefttool_bg2.png)
+}
+.left_gn_center .menuclick{
+	background: url(../img/lefttool_bg2.png)
+}
+/*
+.left_gn_center .left_fg{
+	width: 66px;
+	height: 2px;
+	float: left;
+	background: url(../img/left_fg.png);
+}
+*/

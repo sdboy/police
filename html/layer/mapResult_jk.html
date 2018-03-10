@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<title>无标题文档</title>
+<link href="css/mapResult_jk.css" type="text/css" rel="stylesheet">
+	<script src="js/jquery.js"></script>
+	<script src="js/mapResult_jk.js"></script>
+</head>
+
+<body>
+	<div class="mapResult">
+		<ul class="mapResult_top">
+			<li>
+				<span><strong>搜索结果</strong></span>
+				<span class="gb"></span>
+			</li>
+		</ul>
+		<ul class="mapResult_btm">
+                <div class="ss_index_menu">
+                    <span class="ss_index_menu_yl">预览</span>
+                    <span class="ss_index_menu_yl">回放</span>
+                </div>
+                <div class="ss_index_menu">
+                    <span class="ss_index_menu_xz"><input class="checkbox" type="checkbox" name="all" onclick="check_all(this,'u')"></span>
+                    <span class="ss_index_menu_text1">全选</span>
+                </div>
+                <div class="ss_index_menu">
+                    <span class="ss_index_menu_xz"><input class="checkbox" type="checkbox" name="u"></span>
+                    <span class="ss_index_menu_bh">A</span>
+                    <span class="ss_index_menu_text">名称：高清监控0001112</span>
+                </div>
+                <div class="ss_index_menu">
+                    <span class="ss_index_menu_xz"><input class="checkbox" type="checkbox" name="u"></span>
+                    <span class="ss_index_menu_bh">A</span>
+                    <span class="ss_index_menu_text">名称：高清监控0001112</span>
+                </div>
+                <div class="ss_index_menu">
+                    <span class="ss_index_menu_xz"><input class="checkbox" type="checkbox" name="u"></span>
+                    <span class="ss_index_menu_bh">A</span>
+                    <span class="ss_index_menu_text">名称：高清监控0001112</span>
+                </div>
+                <div class="ss_index_menu">
+                    <span class="ss_index_menu_xz"><input class="checkbox" type="checkbox" name="u"></span>
+                    <span class="ss_index_menu_bh">A</span>
+                    <span class="ss_index_menu_text">名称：高清监控0001112</span>
+                </div>
+                <div class="ss_index_menu">
+                    <span class="ss_index_menu_xz"><input class="checkbox" type="checkbox" name="u"></span>
+                    <span class="ss_index_menu_bh">A</span>
+                    <span class="ss_index_menu_text">名称：高清监控0001112</span>
+                </div>
+                <div class="ss_index_menu">
+                    <span class="ss_index_menu_xz"><input class="checkbox" type="checkbox" name="u"></span>
+                    <span class="ss_index_menu_bh">A</span>
+                    <span class="ss_index_menu_text">名称：高清监控0001112</span>
+                </div>
+		</ul>
+<!--
+		<ul class="pagenumber">
+			<li class="pagenumber_k">
+				<div><</div>
+				<span class="one">1</span>
+				<span>2</span>
+				<span>3</span>
+				<span>4</span>
+				<span>5</span>
+				<div>></div>
+			</li>
+		</ul>
+-->
+	</div>
+</body>
+<script>
+	function check_all(obj,uName)
+			{
+				var checkboxs = document.getElementsByName(uName);
+				for(var i=0;i<checkboxs.length;i++){checkboxs[i].checked = obj.checked;}
+			}
+			
+			function ck(u) { 
+			var input = document.getElementsByTagName("input"); 
+			for (var i=0;i<input.length ;i++ ) { 
+			 if(input[i].type=="checkbox") 
+			 input[i].checked = u; 
+			}
+			} 
+	</script>
+</html>

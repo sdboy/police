@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: transparent;
+}
+ul,li{
+		margin:0px;
+		padding:0px;
+		list-style:none;
+}
+.mapResult{
+	width: 300px;
+	height: 680px;
+	border-radius: 2px;
+	filter:Alpha(opacity=85);
+ 	position:static; 
+  	*zoom:1; 
+	background-color:rgba(14,51,79,0.85);
+	border: 1px solid #2481b2;
+	background: #0e334f;
+}
+.mapResult_top{
+	width: 100%;
+	height: 37px;
+	background: url(../img/mapResult_topbg.png);
+	line-height: 37px;
+	color: #4cb2ff;
+	font-size:12px;
+}
+.mapResult_top span{
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+.mapResult_top .gb{
+	width: 34px;
+	height: 34px;
+	background: url(../img/mapResult_topgb1.png);
+	margin: 1px 1px 0 0;
+	float: right;
+	cursor:pointer;
+}
+.mapResult_top .gb:hover{
+	background: url(../img/mapResult_topgb2.png);
+}
+/*
+.mapResult_btm{
+	height: 300px;
+	overflow: auto;
+	overflow-x:hidden;
+}
+*/
+.mapResult_btm li{
+	width: 98%;
+	height: 92px;
+/*	background: #2781d7;*/
+	margin:0 1% 0 1%;
+}
+.mapResult_btm li:hover{
+	background: #2781d7;
+	cursor: pointer;
+}
+.mapResult_btm li span{
+	display: block;
+	float: left;
+	font-size: 12px;
+}
+.mapResult_btm li .dwico{
+	width: 25px;
+	height: 40px;
+	background: url(../img/dwico1.png);
+	text-align: center;
+	line-height: 27px;
+	margin:23px 10px 0 10px;
+	color: #1c73e9;
+}
+.mapResult_btm li .dwicoclick{
+	background: url(../img/dwico2.png);
+	color: #f0493e;
+}
+.mapResult_btm li .text1{
+	color: #ffffff;
+	width:60%;
+	margin-top: 23px;
+	line-height: 20px;
+}
+.mapResult_btm li .text2{
+	color: #bdd2f0;
+	width:60%;
+	line-height: 20px;
+}
+p{
+	clear: both;
+	margin: 0;
+	margin-right: 2px;
+}
+.pagenumber{
+	width: 100%;
+	height: 30px;
+	margin: auto;
+	margin-top: 30px;
+}
+.pagenumber li{
+	width:80%;
+	height: 30px;
+	margin: auto;
+	color: #ffffff;
+}
+.pagenumber li span{
+	display: block;
+	float: left;
+	margin: 0 2px 0 2px;
+	width:28px;
+	height: 28px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #2d74ab;
+	cursor: pointer;
+}
+.pagenumber li .one{
+	background: #2c9dd5;
+}
+.pagenumber li div{
+	display: block;
+	float: left;
+	margin: 0 2px 0 2px;
+	width:28px;
+	height: 28px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #2d74ab;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

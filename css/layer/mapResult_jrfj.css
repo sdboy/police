@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: transparent;
+}
+ul,li{
+		margin:0px;
+		padding:0px;
+		list-style:none;
+}
+.mapResult{
+	width: 300px;
+	height: 680px;
+	border-radius: 2px;
+	filter:Alpha(opacity=85);
+ 	position:static; 
+  	*zoom:1; 
+	background-color:rgba(14,51,79,0.85);
+	border: 1px solid #2481b2;
+	background: #092941;
+}
+.mapResult_top{
+	width: 100%;
+	height: 37px;
+	background: url(../img/mapResult_topbg.png);
+	line-height: 37px;
+	color: #ffffff;
+	font-size:12px;
+}
+.mapResult_top span{
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+.mapResult_top .gb{
+	width: 34px;
+	height: 34px;
+	background: url(../img/mapResult_topgb1.png);
+	margin: 1px 1px 0 0;
+	float: right;
+	cursor:pointer;
+}
+.mapResult_top .gb:hover{
+	background: url(../img/mapResult_topgb2.png);
+}
+
+
+.mapResult_btm_top{
+	width: 100%;
+	height: 136px;
+	border-bottom: 1px solid #1c628b;
+	background: #0f3451;
+	float: left;
+}
+.menu{
+	width: 274px;
+	height: 24px;
+	margin: auto;
+	margin-top: 15px;
+}
+.menu1{
+	width: 274px;
+	height: 16px;
+	margin: auto;
+	margin-top: 20px;
+}
+.menu .fh{
+	display: block;
+	width: 66px;
+	height: 24px;
+	background: url(../img/fh_btn_bg.png);
+	cursor: pointer;
+	line-height: 24px;
+	text-align: center;
+	font-size: 12px;
+	color: #ffffff;
+	float: left;
+}
+.menu1 span{
+	display: block;
+	float: left;
+	padding-left: 20px;
+	height: 16px;
+	line-height: 16px;
+	font-size: 12px;
+	color: #ffffff;
+	margin-right: 6px;
+}
+.menu1 .cz{
+	background: url(../img/cz.png) no-repeat;
+}
+.menu1 .zz{
+	background: url(../img/zz.png) no-repeat;
+}
+.menu1 .zd{
+	background: url(../img/zd.png) no-repeat;
+}
+.menu1 .jg{
+	background: url(../img/jg.png) no-repeat;
+}
+.menu1 .jw{
+	background: url(../img/jw.png) no-repeat;
+}
+
+#dyl span{
+	display: block;
+	width: 51px;
+	height: 26px;
+	background: url(../img/dyg2.png);
+	float: left;
+	text-align: center;
+	line-height: 26px;
+	color: #a0d5f7;
+	font-size: 12px;
+	cursor: pointer;
+	margin-left: 2px;
+}
+#dyl .dy{
+	background: url(../img/dyg1.png);
+	color: #ffffff;
+}
+
+
+td{
+	background: #0c3d66;
+	border: 1px solid #2481b2;
+	color: #ffffff;
+	font-size: 12px;
+	height: 24px;
+	width: 50px;
+}
+table{
+	margin: auto;
+	margin-top: 10px;
+}
+td img{
+	margin-top: 4px;
+}
+.text{
+	margin-left:3px;float:left; display:block; line-height: 24px;
+}
+.fj{
+	cursor: pointer;
+}
+.fj:hover{
+	background: #2481b2;
+	border: 1px solid #2481b2;
+}
+/*
+.pic{
+	display: block;
+	float: left;
+	width: 16px;
+	height: 16px;
+}
+*/
+
+
+
+
+
+
+
+

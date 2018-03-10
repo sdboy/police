@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+/*	background-color: transparent;*/
+}
+ul,li{
+		margin:0px;
+		padding:0px;
+		list-style:none;
+}
+.search{
+	width: 376px;
+	height: 42px;
+	background: #083250;
+	border: 1px solid #2481b2;
+	border-radius: 2px;
+	filter:Alpha(opacity=90);
+ 	position:static; 
+  	*zoom:1; 
+	background-color:rgba(2,48,82,0.9);
+	box-shadow: 0px 5px 10px #888888;
+	-moz-box-shadow: 2px 2px 10px #888888;
+	-webkit-box-shadow: 2px 2px 10px #888888;
+	-ms-box-shadow: 2px 2px 10px #888888;
+	/*-moz-box-shadow: 3px 3px 4px #000;
+    -webkit-box-shadow: 3px 3px 4px #000;
+    box-shadow: 3px 3px 4px #000;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=10, Color='#000000')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=10, Color='#000000');*/
+}
+.xx_xx{
+	width: 48px;
+	height: 42px;
+	background: url(../img/xx_xx1.png);
+	cursor:pointer;
+	float: left;
+	border-right: 1px solid #0a3d74;
+}
+.xx_xxclick{
+	background: url(../img/xx_xx.png);
+}
+.search input{
+	float: left;
+	background: none;
+	font-size: 16px;
+	padding: 12px;
+	color: #ffffff;
+	border: 0;
+	outline: none;
+	width: 240px;
+}
+.ssbtn{
+	width: 56px;
+	height: 42px;
+	background: url(../img/ssbtn1.png);
+	cursor: pointer;
+	border-left: 1px solid #0a3d74;
+	float: right;
+}
+.ssbtn:hover{
+	background: url(../img/ssbtn2.png);
+}
+.xx_xx_menu{
+	width: 320px;
+	height: 160px;
+	background: #083250;
+	border: 1px solid #2481b2;
+	border-radius: 2px;
+	filter:Alpha(opacity=90);
+ 	position:static; 
+  	*zoom:1; 
+	background-color:rgba(2,48,82,0.9);
+	margin-top: 5px;
+	box-shadow: 0px 5px 10px #888888;
+	-moz-box-shadow: 2px 2px 10px #888888;
+	-webkit-box-shadow: 2px 2px 10px #888888;
+	-ms-box-shadow: 2px 2px 10px #888888;
+}
+.xx_xx_menu ul{
+	width: 54px;
+	color: #4cb2ff;
+	font-size: 12px;
+	margin: 15px 5px 0 5px;
+	cursor: pointer;
+	float: left;
+	height: 60px;
+}
+/*
+.xx_xx_menu ul:hover{
+	color: #2ae5f7;
+}
+*/
+.xx_xx_menu .xx_xx_seclick{
+	color: #ffffff;
+	background: #002a49;
+	border: 1px solid #2481b2;
+	border-radius: 4px;
+	width:  52px;
+	height: 58px;
+}
+.xx_xx_menu ul span{
+	display: block;
+	text-align: center;
+}
+.xx_xx_menu ul .pic{
+	width: 30px;
+	height: 30px;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+
+
+
+
+
