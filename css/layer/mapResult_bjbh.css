@@ -26,7 +26,7 @@ ul,li{
 .mapResult_top{
 	width: 100%;
 	height: 37px;
-	background: url(../img/mapResult_topbg.png);
+	background: url("../../img/mapResult_topbg.png");
 	line-height: 37px;
 	color: #4cb2ff;
 	font-size:12px;
@@ -39,13 +39,13 @@ ul,li{
 .mapResult_top .gb{
 	width: 34px;
 	height: 34px;
-	background: url(../img/mapResult_topgb1.png);
+	background: url("../../img/mapResult_topgb1.png");
 	margin: 1px 1px 0 0;
 	float: right;
 	cursor:pointer;
 }
 .mapResult_top .gb:hover{
-	background: url(../img/mapResult_topgb2.png);
+	background: url("../../img/mapResult_topgb2.png");
 }
 /*
 .mapResult_btm{
@@ -150,7 +150,7 @@ p{
 .mapResult_top_menu div{
 	width: 95px;
 	height: 30px;
-	background: url(../img/ssqh1.png);
+	background: url("../../img/ssqh1.png");
 	margin: 7px 0 0 5px;
 	float: left;
 	cursor: pointer;
@@ -164,7 +164,7 @@ p{
 .mapResult_top_menu .qh{
 	width: 95px;
 	height: 30px;
-	background: url(../img/ssqh2.png);
+	background: url("../../img/ssqh2.png");
 	margin: 7px 0 0 5px;
 	float: left;
 	cursor: pointer;
@@ -410,13 +410,13 @@ p{
 .cxjs_cx .cxjs_cx_btn{
 	width: 49px;
 	height: 30px;
-	background: url(../img/xqss1.png);
+	background: url("../../img/xqss1.png");
 /*	margin-top: 7px;*/
 	margin-left: 10px;
 	cursor: pointer;
 }
 .cxjs_cx .cxjs_cx_btn:hover{
-	background: url(../img/xqss2.png);
+	background: url("../../img/xqss2.png");
 }
 .cxjs_index_menu{
 		width:100%;
@@ -434,7 +434,7 @@ p{
 .cxjs_index_menu_bh{
 		width:20px;
 		height:30px;
-		background:url(../img/bhb.png);
+		background:url("../../img/bhb.png");
 		line-height:20px;
 		text-align:center;
 		color:#ffffff;
@@ -443,17 +443,17 @@ p{
 		margin-right:20px;
 }
 .cxjs_index_menu_bhclick{
-		background:url(../img/bhr.png);
+		background:url("../../img/bhr.png");
 }
 .cxjs_index_menu_text{
 		width:140px;
 		line-height: 50px;
 }
-.jkt1 .sd_xg{ width:20px; height:20px; float:right; background:url(../img/sd_xg.png);}
-.jkt1 .sd_xg:hover{background:url(../img/sd_xg1.png);}
-.jkt1 .sd_sc{ width:20px; height:20px; float:right; background:url(../img/sd_sc.png); margin-right:3px;}
+.jkt1 .sd_xg{ width:20px; height:20px; float:right; background:url("../../img/sd_xg.png");}
+.jkt1 .sd_xg:hover{background:url("../../img/sd_xg1.png");}
+.jkt1 .sd_sc{ width:20px; height:20px; float:right; background:url("../../img/sd_sc.png"); margin-right:3px;}
 .jkt1 .sd_sc:hover{background:url(../img/sd_sc1.png);}
-.cxjs_index_menu .tcgl_xy{width: 20px;height: 20px; background: url(../img/tcxy_1.png);float: right;margin-right: 10px;cursor: pointer;margin-top:15px;}
+.cxjs_index_menu .tcgl_xy{width: 20px;height: 20px; background: url("../../img/tcxy_1.png");float: right;margin-right: 10px;cursor: pointer;margin-top:15px;}
 .cxjs_index_menu .tcgl_xy:hover{background: url(../img/tc_xy2.png);}
 
 
@@ -462,10 +462,10 @@ p{
 
 .jkt1{ width:90%;height:20px; font-size:12px; line-height:20px;cursor: pointer;color: #ffffff;margin: auto; margin-top: 10px;}
 .jkt1 span{display:block; float:left;}
-.jkt1 .gx{width: 13px;height: 13px;background: url(../img/gx1.png);cursor: pointer;margin: 4px 5px 0 10px;}
+.jkt1 .gx{width: 13px;height: 13px;background: url("../../img/gx1.png");cursor: pointer;margin: 4px 5px 0 10px;}
 .jkt1 .gxclick{background: url(../img/gx2.png);}
-.jkt1 .tcgl_xy{width: 16px;height: 16px; background: url(../img/tcxy_1.png);float: right;cursor: pointer;margin-top: 2px;}
-.jkt1 .tcgl_xyclick{background: url(../img/tcxy_3.png);}
+.jkt1 .tcgl_xy{width: 16px;height: 16px; background: url("../../img/tcxy_1.png");float: right;cursor: pointer;margin-top: 2px;}
+.jkt1 .tcgl_xyclick{background: url("../../img/tcxy_3.png");}
 .bhys{width:20px; height:20px;margin-top: 2px;}
 
 
