@@ -35,13 +35,13 @@ ul,li{
 .xx_xx{
 	width: 48px;
 	height: 42px;
-	background: url(../img/xx_xx1.png);
+	background: url("../../img/xx_xx1.png");
 	cursor:pointer;
 	float: left;
 	border-right: 1px solid #0a3d74;
 }
 .xx_xxclick{
-	background: url(../img/xx_xx.png);
+	background: url("../../img/xx_xx.png");
 }
 .search input{
 	float: left;
@@ -56,13 +56,13 @@ ul,li{
 .ssbtn{
 	width: 56px;
 	height: 42px;
-	background: url(../img/ssbtn1.png);
+	background: url("../../img/ssbtn1.png");
 	cursor: pointer;
 	border-left: 1px solid #0a3d74;
 	float: right;
 }
 .ssbtn:hover{
-	background: url(../img/ssbtn2.png);
+	background: url("../../img/ssbtn2.png");
 }
 .xx_xx_menu{
 	width: 320px;

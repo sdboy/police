@@ -14,6 +14,8 @@ require.config({
     zTree : "lib/ztree/jquery.ztree.all",
     underscore : "lib/underscore/underscore",
     jqueryUI : "lib/jquery_ui/jquery-ui",
+    createIframe : "app/iframe/createIframe",
+    removeIframe : "app/iframe/removeIframe",
   },
   shim: {
     'Map3D': {
@@ -30,116 +32,59 @@ require.config({
     
 });
 require([
+  "jquery",
   "require",
   "domReady!",
-  "init",
-  "jquery"
-  ], function(require, doc, init) {
-  init.initialize("map");
-  var map = init.map.mapObj;
-  var SDKpath = init.map.SDKpath;
-  // var SDKevent = init.map.SDKevent;
+  "init"
+  ], function($, require, doc, init) {
+    init.initialize("map");
+    var map = init.map.mapObj;
+    var SDKpath = init.map.SDKpath;
+    var SDKevent = init.map.SDKevent;
   require([
-    "loadGMS"
-    ], function (loadGMS) {
-    // var model = loadGMS.loadBuild(map, "http://192.168.10.34:9502/HaiKang", 
-      // "HaiKang_Compressed");
-    map.flyPosition(120.2161886949898, 30.21208647541144, 63.70232508983463,
-      4.351113551310101, -0.6722756375833641, 528.9511815746299, 3);
-  });
-  require([
-    "webdialog"
-    ], function(webdialog) {
-      var webObj = [];
-      var x = 0;
-      var y = 0;
-      $("#createWeb").click(function() {
-        x += 10;
-        y += 10;
-        var obj = webdialog.createWeb(map, {
-          url : "http://localhost:8081/wget/html/dynamicWin.html",
-          left : "" + x,
-          top : "" + y,
-          width : "240",
-          height : "80"
-        });
-        // 将新创建的对象放在数组头部
-        webObj.unshift(obj);
+    "createIframe"
+    ], function (createIframe) {
+      var root = $("body");
+      // 创建左部导航栏
+      createIframe.createIframe(root, "./html/navigationbar/mapleftTool.html", 
+        "navigationbar", "true", {
+        "width" : "68px",
+        "height" : "445px",
+        "position" : "absolute",
+        "padding" : "0",
+        "margin" : "0",
+        "left" : "0px",
+        "top" : "50%",
+        "marginTop" : "-222px",
+        "zIndex" : "999",
+        "backgroundColor" : "transparent"
       });
-      $("#destroyWeb").click(function() {
-        /*jshint maxcomplexity: 2 */
-        if(webObj.length > 0){
-          // 从数组尾部取对象
-          webdialog.removeWeb(map, webObj.pop());
-        }
+      // 创建搜索框
+      createIframe.createIframe(root, "./html/search/mapSearch.html", 
+        "searchbar", "true", {
+        "width" : "378px",
+        "height" : "44px",
+        "position" : "absolute",
+        "padding" : "0",
+        "margin" : "0",
+        "left" : "80px",
+        "top" : "115px",
+        "zIndex" : "999",
+        "backgroundColor" : "transparent"
       });
-      $("#updateWeb").click(function() {
-        /*jshint maxcomplexity: 2 */
-        if(webObj.length > 0){
-          // 更新第一个对象
-          webdialog.updateWeb(map, webObj[0], "sdddd");
-        }
-      });
-  });
-  require([
-    "event"
-    ], function (event) {
-      $("#createWin").click(function () {
-        event.setParam(map, {
-          "winWidth" : "260",
-          "winHeight" : "100",
-          "arrowSize" : "30",
-          "radial" : "20",
-          "url" : "http://localhost:8081/wget/html/dynamicWin.html",
-          "closeButton" : "true",
-          "arrowColor" : "65, 177, 255",
-          "closeButtonX" : "220",
-          "closeButtonY" : "0",
-          "closeButtonW" : "20",
-          "closeButtonH" : "20",
-          "param" : "kkkkk"
-        });
-      });
-      $("#removeWin").click(function () {
-        event.removeWin();
-      });
-      $("#updateWin").click(function () {
-        event.updateWin({
-          "winWidth" : "120"
-        });
-      });
-      $("#getParam").click(function () {
-        event.getParam("xxx");
-      });
-      $("#visibleWin").click(function () {
-        event.visibleWin();
-      });
-  });
-
-  require([
-    "loadWin"
-    ], function (loadWin) {
-      $("#createIframe").click(function () {
-        var root = $("body");
-        loadWin.createIframe(root, "./html/resultList.html", "resultList", 
-          "true", {
-          "width" : "220px",
-          "height" : "220px",
-          "position" : "absolute",
-          "padding" : "0",
-          "margin" : "0",
-          "left" : "80px",
-          "top" : "40px",
-          "zIndex" : "999",
-          "backgroundColor" : "transparent"
-        });
-      });
-      $("#removeIframe").click(function () {
-        /*jshint maxcomplexity: 2 */
-        var iframe = $("#resultList");
-        if(iframe.length > 0){
-          loadWin.destroyIframe(iframe);
-        }
+      // 创建右部工具栏
+      createIframe.createIframe(root, "./html/toolbar/maprightTool.html", 
+        "toolbar", "true", {
+        "width" : "160px",
+        "height" : "340px",
+        "position" : "absolute",
+        "padding" : "0",
+        "margin" : "0",
+        "right" : "0px",
+        "top" : "50%",
+        "marginTop" : "-170px",
+        "zIndex" : "999",
+        "backgroundColor" : "transparent"
       });
   });
 });

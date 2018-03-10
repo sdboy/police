@@ -27,91 +27,91 @@ ul,li{
 .sxck{
 	width: 34px;
 	height: 40px;
-	background: url(../img/sxck1.png);
+	background: url("../../img/sxck1.png");
 	cursor: pointer;
 	position: relative;
 }
 .sxck:hover{
-	background: url(../img/sxck2.png);
+	background: url("../../img/sxck2.png");
 }
 .sxck:hover{
-	background: url(../img/sxck2.png);
+	background: url("../../img/sxck2.png");
 }
 .esld{
 	width: 34px;
 	height: 40px;
-	background: url(../img/esld1.png);
+	background: url("../../img/esld1.png");
 	cursor: pointer;
 	position: relative;
 }
 .esld:hover{
-	background: url(../img/esld2.png);
+	background: url("../../img/esld2.png");
 }
 .esldclick{
-	background: url(../img/esld2.png);
+	background: url("../../img/esld2.png");
 }
 .tckz{
 	width: 34px;
 	height: 40px;
-	background: url(../img/tckz1.png);
+	background: url("../../img/tckz1.png");
 	cursor: pointer;
 	position: relative;
 }
 .tckz:hover{
-	background: url(../img/tckz2.png);
+	background: url("../../img/tckz2.png");
 }
 .tckzclick{
-	background: url(../img/tckz2.png);
+	background: url("../../img/tckz2.png");
 }
 .kjcl{
 	width: 34px;
 	height: 40px;
-	background: url(../img/kjcl1.png);
+	background: url("../../img/kjcl1.png");
 	cursor: pointer;
 	position: relative;
 }
 .kjcl:hover{
-	background: url(../img/kjcl2.png);
+	background: url("../../img/kjcl2.png");
 }
 .sj{
 	width: 34px;
 	height: 40px;
-	background: url(../img/sj1.png);
+	background: url("../../img/sj1.png");
 	cursor: pointer;
 	position: relative;
 }
 .sj:hover{
-	background: url(../img/sj2.png);
+	background: url("../../img/sj2.png");
 }
 .my{
 	width: 34px;
 	height: 40px;
-	background: url(../img/my1.png);
+	background: url("../../img/my1.png");
 	cursor: pointer;
 	position: relative;
 }
 .my:hover{
-	background: url(../img/my2.png);
+	background: url("../../img/my2.png");
 }
 .qc{
 	width: 34px;
 	height: 40px;
-	background: url(../img/qc1.png);
+	background: url("../../img/qc1.png");
 	cursor: pointer;
 	position: relative;
 }
 .qc:hover{
-	background: url(../img/qc2.png);
+	background: url("../../img/qc2.png");
 }
 .jt{
 	width: 34px;
 	height: 40px;
-	background: url(../img/jt1.png);
+	background: url("../../img/jt1.png");
 	cursor: pointer;
 	position: relative;
 }
 .jt:hover{
-	background: url(../img/jt2.png);
+	background: url("../../img/jt2.png");
 }
 .menu{
 	width: 120px;
@@ -133,69 +133,56 @@ ul,li{
 	cursor: pointer;
 }
 .menu .mjcl{
-	background: url(../img/mjcl1.png);
+	background: url("../../img/mjcl1.png");
 }
 .menu .mjcl:hover{
-	background: url(../img/mjcl2.png);
+	background: url("../../img/mjcl2.png");
 }
 .menu .spcl{
-	background: url(../img/spcl1.png);
+	background: url("../../img/spcl1.png");
 }
 .menu .spcl:hover{
-	background: url(../img/spcl2.png);
+	background: url("../../img/spcl2.png");
 }
 .menu .czcl{
-	background: url(../img/czcl1.png);
+	background: url("../../img/czcl1.png");
 }
 .menu .czcl:hover{
-	background: url(../img/czcl2.png);
+	background: url("../../img/czcl2.png");
 }
 .menu .jsd{
-	background: url(../img/jsd1.png);
+	background: url("../../img/jsd1.png");
 }
 .menu .jsd:hover{
-	background: url(../img/jsd2.png);
+	background: url("../../img/jsd2.png");
 }
 .menu .sswd{
-	background: url(../img/sswd1.png);
+	background: url("../../img/sswd1.png");
 }
 .menu .sswd:hover{
-	background: url(../img/sswd2.png);
+	background: url("../../img/sswd2.png");
 }
 .menu .ld{
-	background: url(../img/ld1.png);
+	background: url("../../img/ld1.png");
 }
 .menu .ld:hover{
-	background: url(../img/ld2.png);
+	background: url("../../img/ld2.png");
 }
 .menu .bx{
-	background: url(../img/bx1.png);
+	background: url("../../img/bx1.png");
 }
 .menu .bx:hover{
-	background: url(../img/bx2.png);
+	background: url("../../img/bx2.png");
 }
 .menu .cx{
-	background: url(../img/cx1.png);
+	background: url("../../img/cx1.png");
 }
 .menu .cx:hover{
-	background: url(../img/cx2.png);
+	background: url("../../img/cx2.png");
 }
 .menu .fx{
-	background: url(../img/fx1.png);
+	background: url("../../img/fx1.png");
 }
 .menu .fx:hover{
-	background: url(../img/fx2.png);
+	background: url("../../img/fx2.png");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

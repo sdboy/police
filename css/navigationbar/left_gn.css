@@ -50,14 +50,14 @@ ul,li{
 .sxck{
 	width: 34px;
 	height: 40px;
-	background: url(../img/sxck1.png);
+	background: url("../../img/sxck1.png");
 	cursor: pointer;
 	border-top-left-radius: 2px;
 	border-top-right-radius: 2px;
 	position: relative;
 }
 .sxck:hover{
-	background: url(../img/sxck2.png);
+	background: url("../../img/sxck2.png");
 }
 
 .left_gn_center .menu{
@@ -66,13 +66,13 @@ ul,li{
 	float: left;
 	cursor: pointer;
 	margin: 2px 2px 0px 2px;
-	background: url(../img/lefttool_bg1.png)
+	background: url("../../img/lefttool_bg1.png");
 }
 .left_gn_center .menu:hover{
-	background: url(../img/lefttool_bg2.png)
+	background: url("../../img/lefttool_bg2.png")
 }
 .left_gn_center .menuclick{
-	background: url(../img/lefttool_bg2.png)
+	background: url("../../img/lefttool_bg2.png")
 }
 /*
 .left_gn_center .left_fg{
