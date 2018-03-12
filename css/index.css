@@ -7,6 +7,7 @@ html,body{
 	padding:0px;
 	font-family:Arial, Helvetica, sans-serif;
 	background: #E1E1E1;
+	overflow: hidden;
 }
 ul,li{
 	margin:0px;
@@ -52,4 +53,10 @@ ul,li{
 	line-height: 88px;
 	color: #ffffff;
 	font-size: 26px;
+}
+
+@media screen and (max-width: 800px){
+	#toolbar{
+		display: none;
+	}
 }

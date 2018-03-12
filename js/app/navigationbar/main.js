@@ -13,6 +13,7 @@ require.config({
     jqueryUI : "lib/jquery_ui/jquery-ui",
     createIframe : "app/iframe/createIframe",
     removeIframe : "app/iframe/removeIframe",
+    adaption : "app/iframe/adaption",
   },
   shim: {
     'Map3D': {
@@ -32,7 +33,11 @@ require([
   "jquery",
   "createIframe",
   "removeIframe",
-  ], function ($, createIframe, removeIframe) {
+  "adaption"
+  ], function ($, createIframe, removeIframe, adaption) {
+    var eleObj = parent.document.getElementById("navigationbar");
+    // adaption.adaptionHeight(eleObj);
+    // adaption.adaptionWidth(eleObj);
     $("#jyys").click(function () {
       if(parent.$("#mapResult_jyysFrame").length > 0){
         parent.$("#mapResult_jyysFrame").toggle();
@@ -50,7 +55,7 @@ require([
           "top" : "50%",
           "marginTop" : "-280px",
           "display" : "block",
-          "zIndex" : "999",
+          "zIndex" : "1000",
           "backgroundColor" : "transparent"
         });
 
@@ -74,7 +79,7 @@ require([
           "top" : "50%",
           "marginTop" : "-280px",
           "display" : "block",
-          "zIndex" : "999",
+          "zIndex" : "1001",
           "backgroundColor" : "transparent"
         });       
       }

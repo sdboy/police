@@ -16,6 +16,7 @@ require.config({
     jqueryUI : "lib/jquery_ui/jquery-ui",
     createIframe : "app/iframe/createIframe",
     removeIframe : "app/iframe/removeIframe",
+    adaption : "app/iframe/adaption"
   },
   shim: {
     'Map3D': {
@@ -37,10 +38,12 @@ require([
   "domReady!",
   "init"
   ], function($, require, doc, init) {
+    var height = document.body.clientHeight - 89;
+    $("#map").css("height", height + "px");
     init.initialize("map");
     var map = init.map.mapObj;
     var SDKpath = init.map.SDKpath;
-    var SDKevent = init.map.SDKevent;
+    // var SDKevent = init.map.SDKevent;
   require([
     "createIframe"
     ], function (createIframe) {
@@ -48,8 +51,8 @@ require([
       // 创建左部导航栏
       createIframe.createIframe(root, "./html/navigationbar/mapleftTool.html", 
         "navigationbar", "true", {
-        "width" : "68px",
-        "height" : "445px",
+        // "width" : "68px",
+        // "height" : "445px",
         "position" : "absolute",
         "padding" : "0",
         "margin" : "0",
