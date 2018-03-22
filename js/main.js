@@ -43,7 +43,7 @@ require([
     init.initialize("map");
     var map = init.map.mapObj;
     var SDKpath = init.map.SDKpath;
-    // var SDKevent = init.map.SDKevent;
+    var SDKevent = init.map.SDKevent;
   require([
     "createIframe"
     ], function (createIframe) {
